@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab3_json.AboutForm"
+             Title="AboutForm">
+    <ScrollView>
+        <Frame>
+        <StackLayout>
+        <Label x:Name="Label1" Text="Виконала Лагода Катерина Анатоліївна"/>
+        <Label x:Name="Label2" Text="Студентка 2 курсу"/>
+        <Label x:Name="Label3" Text="Групи К25"/>
+        <Label x:Name="Label4" Text="Рік виконання: 2023"/>
+        <Label x:Name="Label5" Text="Дана програма дозволяє вивести дані про студентів, що містяться у json файлі, у вигляді таблички."/>
+        <Label x:Name="Label6" Text="А також надається можливість редагувати та сереалізувати json файл."/>
+        
+        </StackLayout>
+        </Frame>
+    </ScrollView>
+</ContentPage>
